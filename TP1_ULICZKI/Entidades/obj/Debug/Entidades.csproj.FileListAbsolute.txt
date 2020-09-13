@@ -1,0 +1,6 @@
+C:\Users\mica1\source\repos\tp_laboratorio_2\TP1_ULICZKI\Entidades\bin\Debug\Entidades.dll
+C:\Users\mica1\source\repos\tp_laboratorio_2\TP1_ULICZKI\Entidades\bin\Debug\Entidades.pdb
+C:\Users\mica1\source\repos\tp_laboratorio_2\TP1_ULICZKI\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\mica1\source\repos\tp_laboratorio_2\TP1_ULICZKI\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\mica1\source\repos\tp_laboratorio_2\TP1_ULICZKI\Entidades\obj\Debug\Entidades.dll
+C:\Users\mica1\source\repos\tp_laboratorio_2\TP1_ULICZKI\Entidades\obj\Debug\Entidades.pdb
