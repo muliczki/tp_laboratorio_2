@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace MiCalculadora
 {
-    static class Program
+    static class ProgramaCalculadora
     {
         /// <summary>
         /// Punto de entrada principal para la aplicación.
@@ -17,6 +17,7 @@ namespace MiCalculadora
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FormCalculadora());
+
         }
     }
 }

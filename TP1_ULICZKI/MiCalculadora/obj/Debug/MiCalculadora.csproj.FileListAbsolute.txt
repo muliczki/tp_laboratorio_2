@@ -7,7 +7,7 @@ C:\Users\mica1\source\repos\tp_laboratorio_2\TP1_ULICZKI\MiCalculadora\obj\Debug
 C:\Users\mica1\source\repos\tp_laboratorio_2\TP1_ULICZKI\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
 C:\Users\mica1\source\repos\tp_laboratorio_2\TP1_ULICZKI\MiCalculadora\obj\Debug\MiCalculadora.exe
 C:\Users\mica1\source\repos\tp_laboratorio_2\TP1_ULICZKI\MiCalculadora\obj\Debug\MiCalculadora.pdb
-C:\Users\mica1\source\repos\tp_laboratorio_2\TP1_ULICZKI\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
 C:\Users\mica1\source\repos\tp_laboratorio_2\TP1_ULICZKI\MiCalculadora\bin\Debug\Entidades.dll
 C:\Users\mica1\source\repos\tp_laboratorio_2\TP1_ULICZKI\MiCalculadora\bin\Debug\Entidades.pdb
 C:\Users\mica1\source\repos\tp_laboratorio_2\TP1_ULICZKI\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Users\mica1\source\repos\tp_laboratorio_2\TP1_ULICZKI\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources

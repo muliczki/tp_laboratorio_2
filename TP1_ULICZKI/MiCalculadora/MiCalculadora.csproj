@@ -52,7 +52,7 @@
     <Compile Include="FormCalculadora.Designer.cs">
       <DependentUpon>FormCalculadora.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="ProgramaCalculadora.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormCalculadora.resx">
       <DependentUpon>FormCalculadora.cs</DependentUpon>
