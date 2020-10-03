@@ -14,19 +14,26 @@ namespace Entidades
         private ETipo tipo;
 
         /// <summary>
-        /// Por defecto, TIPO será Monovolumen
+        /// Por defecto, TIPO será CuatroPuertas
         /// </summary>
         /// <param name="marca"></param>
         /// <param name="chasis"></param>
         /// <param name="color"></param>
         public Sedan(EMarca marca, string chasis, ConsoleColor color)
-            : base(chasis, marca, color)
+            : this(marca, chasis, color, Sedan.ETipo.CuatroPuertas)
         {
-            this.tipo = ETipo.CuatroPuertas;
         }
 
+
+        /// <summary>
+        /// Constructor con parametro del tipo
+        /// </summary>
+        /// <param name="marca"></param>
+        /// <param name="chasis"></param>
+        /// <param name="color"></param>
+        /// <param name="tipo"></param>
         public Sedan(EMarca marca, string chasis, ConsoleColor color, ETipo tipo)
-           : this(marca, chasis, color)
+           : base(chasis, marca, color)
         {
             this.tipo = tipo;
         }
@@ -43,6 +50,12 @@ namespace Entidades
             }
         }
 
+
+        /// <summary>
+        /// Metodo sobreescrito Mostrar(), devuelve información general
+        /// del vehiculo y los atributos especiales del sedan
+        /// </summary>
+        /// <returns>string con los datos relevantes.</returns>
         public override sealed string Mostrar()
         {
             StringBuilder sb = new StringBuilder();

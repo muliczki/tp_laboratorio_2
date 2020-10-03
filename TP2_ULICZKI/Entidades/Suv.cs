@@ -12,6 +12,7 @@ namespace Entidades
             : base(chasis, marca, color)
         {
         }
+
         /// <summary>
         /// Las camionetas son grandes
         /// </summary>
@@ -23,6 +24,12 @@ namespace Entidades
             }
         }
 
+
+        /// <summary>
+        /// Metodo sobreescrito Mostrar(), devuelve información general
+        /// del vehiculo y los atributos especiales del SUV
+        /// </summary>
+        /// <returns>string con los datos relevantes.</returns>
         public override sealed string Mostrar()
         {
             StringBuilder sb = new StringBuilder();

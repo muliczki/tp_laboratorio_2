@@ -16,7 +16,7 @@ namespace Entidades
 
         public enum ETipo
         {
-            Moto, Automovil, Camioneta, Todos
+            Ciclomotor, Sedan, SUV, Todos
         }
 
         #region "Constructores"
@@ -61,19 +61,19 @@ namespace Entidades
             {
                 switch (tipo)
                 {
-                    case ETipo.Camioneta:
+                    case ETipo.SUV:
                         if (v is Suv)
                         {
                             sb.AppendLine(v.Mostrar());
                         }
                         break;
-                    case ETipo.Moto:
+                    case ETipo.Ciclomotor:
                         if (v is Ciclomotor)
                         { 
                             sb.AppendLine(v.Mostrar());
                         }
                         break;
-                    case ETipo.Automovil:
+                    case ETipo.Sedan:
                         if(v is Sedan)
                         { 
                             sb.AppendLine(v.Mostrar());
@@ -95,7 +95,7 @@ namespace Entidades
         /// </summary>
         /// <param name="taller">Objeto donde se agregará el elemento</param>
         /// <param name="vehiculo">Objeto a agregar</param>
-        /// <returns></returns>
+        /// <returns>objeto del tipo taller</returns>
         public static Taller operator +(Taller taller, Vehiculo vehiculo)
         {
             foreach (Vehiculo v in taller.vehiculos)

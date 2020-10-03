@@ -47,13 +47,19 @@ namespace Entidades
             return (string) this;
         }
 
+        /// <summary>
+        /// Sobrecarga explicita de operador string.
+        /// Al castear un vehiculo con (string) me devolvera los 
+        /// datos de sus atributos.
+        /// </summary>
+        /// <returns>string con los datos relevantes.</returns>
         public static explicit operator string (Vehiculo p)
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine($"CHASIS: {p.chasis}\r");
-            sb.AppendLine($"MARCA : {p.marca.ToString()}\r");
-            sb.AppendLine($"COLOR : {p.color.ToString()}\r");
+            sb.AppendLine($"CHASIS: {p.chasis}");
+            sb.AppendLine($"MARCA : {p.marca.ToString()}");
+            sb.AppendLine($"COLOR : {p.color.ToString()}");
             sb.Append("---------------------");
 
             return sb.ToString();
@@ -64,17 +70,19 @@ namespace Entidades
         /// </summary>
         /// <param name="v1"></param>
         /// <param name="v2"></param>
-        /// <returns></returns>
+        /// <returns>true si son iguales, false si no lo son</returns>
         public static bool operator ==(Vehiculo v1, Vehiculo v2)
         {
             return (v1.chasis == v2.chasis);
         }
+
+
         /// <summary>
         /// Dos vehiculos son distintos si su chasis es distinto
         /// </summary>
         /// <param name="v1"></param>
         /// <param name="v2"></param>
-        /// <returns></returns>
+        /// <returns>true si son distintos, false si son iguales</returns>
         public static bool operator !=(Vehiculo v1, Vehiculo v2)
         {
             return !(v1 == v2);
