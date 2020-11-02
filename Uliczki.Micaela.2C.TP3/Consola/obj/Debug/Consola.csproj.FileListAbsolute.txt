@@ -1,0 +1,16 @@
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\Consola\bin\Debug\Consola.exe.config
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\Consola\bin\Debug\Consola.exe
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\Consola\bin\Debug\Consola.pdb
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\Consola\bin\Debug\ClasesAbstractas.dll
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\Consola\bin\Debug\ClasesInstanciables.dll
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\Consola\bin\Debug\Excepciones.dll
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\Consola\bin\Debug\ClasesAbstractas.pdb
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\Consola\bin\Debug\ClasesInstanciables.pdb
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\Consola\bin\Debug\Excepciones.pdb
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\Consola\obj\Debug\Consola.csprojAssemblyReference.cache
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\Consola\obj\Debug\Consola.csproj.CoreCompileInputs.cache
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\Consola\obj\Debug\Consola.csproj.CopyComplete
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\Consola\obj\Debug\Consola.exe
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\Consola\obj\Debug\Consola.pdb
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\Consola\bin\Debug\Archivos.dll
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\Consola\bin\Debug\Archivos.pdb

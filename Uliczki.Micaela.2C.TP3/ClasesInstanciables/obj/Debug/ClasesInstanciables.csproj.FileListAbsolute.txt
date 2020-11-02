@@ -1,0 +1,13 @@
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\ClasesInstanciables\bin\Debug\ClasesInstanciables.dll
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\ClasesInstanciables\bin\Debug\ClasesInstanciables.pdb
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\ClasesInstanciables\bin\Debug\ClasesAbstractas.dll
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\ClasesInstanciables\bin\Debug\Excepciones.dll
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\ClasesInstanciables\bin\Debug\ClasesAbstractas.pdb
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\ClasesInstanciables\bin\Debug\Excepciones.pdb
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.csprojAssemblyReference.cache
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CoreCompileInputs.cache
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CopyComplete
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.dll
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.pdb
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\ClasesInstanciables\bin\Debug\Archivos.dll
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\ClasesInstanciables\bin\Debug\Archivos.pdb

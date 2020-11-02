@@ -1,0 +1,9 @@
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\ClasesAbstractas\bin\Debug\ClasesAbstractas.dll
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\ClasesAbstractas\bin\Debug\ClasesAbstractas.pdb
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\ClasesAbstractas\bin\Debug\Excepciones.dll
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\ClasesAbstractas\bin\Debug\Excepciones.pdb
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\ClasesAbstractas\obj\Debug\ClasesAbstractas.csprojAssemblyReference.cache
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\ClasesAbstractas\obj\Debug\ClasesAbstractas.csproj.CoreCompileInputs.cache
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\ClasesAbstractas\obj\Debug\ClasesAbstractas.csproj.CopyComplete
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\ClasesAbstractas\obj\Debug\ClasesAbstractas.dll
+C:\Users\mica1\source\repos\tp_laboratorio_2\Uliczki.Micaela.2C.TP3\ClasesAbstractas\obj\Debug\ClasesAbstractas.pdb
