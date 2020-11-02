@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Excepciones
 {
+    /// <summary>
+    /// Excepcion que se lanzara cuando haya un error de formato en el dni de las personas
+    /// </summary>
     public class DniInvalidoException : Exception
     {
 

@@ -8,16 +8,6 @@ using Excepciones;
 namespace EntidadesAbstractas
 {
 
-    //• Se deberá validar que el DNI sea correcto, teniendo en cuenta su nacionalidad.Argentino entre 1 y
-    //89999999 y Extranjero entre 90000000 y 99999999. Caso contrario, se lanzará la excepción
-    //NacionalidadInvalidaException.
-    //• Si el DNI presenta un error de formato (más caracteres de los permitidos, letras, etc.) se lanzará
-    //DniInvalidoException.
-    //• Sólo se realizarán las validaciones dentro de las propiedades.
-    //• Validará que los nombres sean cadenas con caracteres válidos para nombres.Caso contrario, no se
-    //cargará.
-    //• ToString retornará los datos de la Persona.
-
     public abstract class Persona
     {
         public enum ENacionalidad { Argentino, Extranjero }
@@ -28,6 +18,9 @@ namespace EntidadesAbstractas
         private ENacionalidad nacionalidad;
 
         #region Propiedades
+        /// <summary>
+        /// Get/Set de apellido con las validaciones correspondientes
+        /// </summary>
         public string Apellido
         {
             get
@@ -45,6 +38,9 @@ namespace EntidadesAbstractas
             }
         }
 
+        /// <summary>
+        /// Get/Set de DNI con las validaciones correspondientes
+        /// </summary>
         public int DNI
         {
             get
@@ -65,6 +61,9 @@ namespace EntidadesAbstractas
             }
         }
 
+        /// <summary>
+        /// Get/Set de nacionalidad
+        /// </summary>
         public ENacionalidad Nacionalidad
         {
             get
@@ -78,6 +77,9 @@ namespace EntidadesAbstractas
             }
         }
 
+        /// <summary>
+        /// Get/Set de nombre con las validaciones correspondientes
+        /// </summary>
         public string Nombre
         {
             get
@@ -94,6 +96,9 @@ namespace EntidadesAbstractas
             }
         }
 
+        /// <summary>
+        /// Get/Set de dni en string con las validaciones correspondientes
+        /// </summary>
         public string StringToDNI
         {
             set
@@ -142,6 +147,14 @@ namespace EntidadesAbstractas
         #endregion
 
         #region Metodos
+        /// <summary>
+        /// Metodo que valida que el DNI sea correcto, teniendo en cuenta su nacionalidad. 
+        /// Argentino entre 1 y 89999999 y Extranjero entre 90000000 y 99999999. 
+        /// Caso contrario, se lanzará la excepción NacionalidadInvalidaException
+        /// </summary>
+        /// <param name="nacionalidad"></param>
+        /// <param name="dato"></param>
+        /// <returns>Numero de Dni en int</returns>
         private int ValidarDni (ENacionalidad nacionalidad, int dato)
         {
             if(nacionalidad == ENacionalidad.Argentino && dato>= 1 && dato<= 89999999)
@@ -158,7 +171,15 @@ namespace EntidadesAbstractas
             }
         }
 
-
+        /// <summary>
+        /// Metodo que parsea la cadena que recibe e intenta transformalo en un Dni.
+        /// Si el DNI presenta un error de formato (más caracteres de los permitidos, letras, etc.) 
+        /// se lanzará DniInvalidoException.
+        /// Luego llama a ValidarDni(nac, int)
+        /// </summary>
+        /// <param name="nacionalidad"></param>
+        /// <param name="dato"></param>
+        /// <returns>Numero de Dni en int</returns>
         private int ValidarDni(ENacionalidad nacionalidad, string dato)
         {
             foreach (char c in dato)
@@ -176,11 +197,17 @@ namespace EntidadesAbstractas
         }
 
 
+        /// <summary>
+        /// Validará que los nombres sean cadenas con caracteres válidos para nombres. 
+        /// Caso contrario, no se cargará.
+        /// </summary>
+        /// <param name="dato"></param>
+        /// <returns>String con nombre si es correcto, string vacio si es erroneo</returns>
         private string ValidarNombreApellido(string dato)
         {
             foreach (char c in dato)
             {
-                if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || c==' ' && dato.Length > 1)
+                if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || c==' ' && dato.Length > 2)
                 {
                 }
                 else
@@ -193,6 +220,11 @@ namespace EntidadesAbstractas
         }
 
 
+        /// <summary>
+        /// Sobreescritura del metodo ToString()
+        /// retorna todos los datos de la persona.
+        /// </summary>
+        /// <returns>string con datos de persona</returns>
         public override string ToString()
         {
             StringBuilder stb = new StringBuilder();

@@ -8,6 +8,13 @@ namespace Archivos
 {
     public class Texto : IArchivo<string>
     {
+        /// <summary>
+        /// Guardar datos en un archivo txt que por default va a estar en el desktop,
+        /// si hay algun error, se lanza la excepcion ArchivosException
+        /// </summary>
+        /// <param name="archivo"></param>
+        /// <param name="datos"></param>
+        /// <returns></returns>
         public bool Guardar(string archivo, string datos)
         {
             StreamWriter streamWriter = null;
@@ -36,6 +43,13 @@ namespace Archivos
 
         }
 
+        /// <summary>
+        /// Lee datos en un archivo txt que por default va a estar en el desktop,
+        ///  si hay algun error, se lanza la excepcion ArchivosException
+        /// </summary>
+        /// <param name="archivo"></param>
+        /// <param name="datos"></param>
+        /// <returns>en el out se guardan los datos, devuelve true si pudo leer</returns>
         public bool Leer(string archivo, out string datos)
         {
             StreamReader streamReader = null;

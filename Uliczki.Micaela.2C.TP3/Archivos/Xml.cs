@@ -10,6 +10,13 @@ namespace Archivos
     public class Xml<T> : IArchivo<T>
         where T : new()
     {
+        /// <summary>
+        /// Guardar datos en un archivo xml que por default va a estar en el desktop,
+        /// si hay algun error, se lanza la excepcion ArchivosException
+        /// </summary>
+        /// <param name="archivo"></param>
+        /// <param name="datos"></param>
+        /// <returns></returns>
         public bool Guardar(string archivo, T datos)
         {
             XmlTextWriter writer = null;
@@ -40,6 +47,13 @@ namespace Archivos
             return retorno;
         }
 
+        /// <summary>
+        /// Lee datos en un archivo xml que por default va a estar en el desktop,
+        ///  si hay algun error, se lanza la excepcion ArchivosException
+        /// </summary>
+        /// <param name="archivo"></param>
+        /// <param name="datos"></param>
+        /// <returns>en el out se guardan los datos</returns>
         public bool Leer(string archivo, out T datos)
         {
             try
